@@ -45,19 +45,23 @@
       "type": "string"
     },
     "CompanyResponse": {
-      "type": "string"
+      "type": "string",
+      "private": true
     },
     "GovernmentResponse": {
-      "type": "string"
+      "type": "string",
+      "private": true
     },
     "CERResponse": {
-      "type": "string"
+      "type": "string",
+      "private": true
     },
     "IndigenousMonitors": {
       "type": "string"
     },
     "TraditionalTerritoryMapsOrDescription": {
-      "type": "string"
+      "type": "string",
+      "private": true
     },
     "TraditionalTerritoryLink": {
       "type": "string"
