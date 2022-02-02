@@ -6,6 +6,6 @@
     "dockerfile": "${workspaceFolder}/Dockerfile",
     "context": "${workspaceFolder}",
     "pull": true,
-    "tag": "cpadmin.azurecr.io/communityprofiles:latest"
+    "tag": "cpadmin.azurecr.io/cpadmin:latest"
   }
 }

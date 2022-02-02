@@ -5,14 +5,14 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "node app.js",
+    "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.0.6",
-    "@strapi/plugin-users-permissions": "4.0.6",
-    "@strapi/strapi": "4.0.6",
+    "@strapi/plugin-i18n": "4.0.7",
+    "@strapi/plugin-users-permissions": "4.0.7",
+    "@strapi/strapi": "4.0.7",
     "pg": "^8.7.1",
     "sqlite3": "5.0.2"
   },
