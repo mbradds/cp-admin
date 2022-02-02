@@ -1,0 +1,102 @@
+{
+  "kind": "collectionType",
+  "collectionName": "communities",
+  "info": {
+    "singularName": "community",
+    "pluralName": "communities",
+    "displayName": "Communities",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Leadership": {
+      "type": "string"
+    },
+    "NextElection": {
+      "type": "date"
+    },
+    "ContactPerson": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "ContactInformation": {
+      "type": "string"
+    },
+    "EmergencyManagementContact": {
+      "type": "string"
+    },
+    "Protocol": {
+      "type": "string"
+    },
+    "IndigenousStudy": {
+      "type": "string"
+    },
+    "ConcernsOrIssues": {
+      "type": "string"
+    },
+    "CompanyResponse": {
+      "type": "string"
+    },
+    "GovernmentResponse": {
+      "type": "string"
+    },
+    "CERResponse": {
+      "type": "string"
+    },
+    "IndigenousMonitors": {
+      "type": "string"
+    },
+    "TraditionalTerritoryMapsOrDescription": {
+      "type": "string"
+    },
+    "TraditionalTerritoryLink": {
+      "type": "string"
+    },
+    "ProjectSpreads": {
+      "type": "string"
+    },
+    "ProjectSpreadNumber": {
+      "type": "integer"
+    },
+    "History": {
+      "type": "text"
+    },
+    "Website": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "float",
+      "required": true
+    },
+    "Longitude": {
+      "type": "float",
+      "required": true
+    },
+    "ShowOnMap": {
+      "type": "boolean",
+      "default": true
+    },
+    "MapFile": {
+      "type": "string"
+    },
+    "Pronunciation": {
+      "type": "string"
+    },
+    "MapSource": {
+      "type": "string"
+    },
+    "MapLink": {
+      "type": "string"
+    }
+  }
+}
