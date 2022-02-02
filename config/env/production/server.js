@@ -11,4 +11,7 @@ module.exports = ({ env }) => ({
   admin: {
     autoOpen: false,
   },
+  app: {
+    keys: env.array("APP_KEYS"),
+  },
 });

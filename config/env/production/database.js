@@ -6,9 +6,10 @@ module.exports = ({ env }) => ({
       host: env("PROD_DATABASE_HOST", "localhost"),
       port: env.int("PROD_DATABASE_PORT", 5432),
       database: env("PROD_DATABASE_NAME"),
-      username: env("PROD_DATABASE_USERNAME"),
+      user: env("PROD_DATABASE_USERNAME"),
       password: env("PROD_DATABASE_PASSWORD"),
       schema: env("PROD_DATABASE_SCHEMA", "public"),
+      ssl: true,
     },
   },
 });
