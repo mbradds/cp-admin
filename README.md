@@ -1,4 +1,8 @@
-# 🚀 Getting started with Strapi
+# cp-admin
+
+Admin portal for the [community-profiles](https://github.com/mbradds/community-profiles) web app. Created with Strapi and postgresql backend. Hosted with Azure App Services.
+
+## Strapi Instructions
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
@@ -8,19 +12,29 @@ Start your Strapi application with autoReload enabled. [Learn more](https://docs
 
 ```
 npm run develop
-# or
-yarn develop
 ```
+
+Starts the application with a local postgresql database connection. API can be accessed by the frontend via: http://localhost:1337/api/communities
 
 ### `start`
 
 Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
 
+Start the app with local database connection:
+
 ```
 npm run start
-# or
-yarn start
 ```
+
+API: http://localhost:1337/api/communities
+
+Start the app with Azure database connection:
+
+```
+NODE_ENV=production npm run start
+```
+
+API: https://cp-admin.azurewebsites.net/api/communities
 
 ### `build`
 
@@ -28,30 +42,10 @@ Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/lates
 
 ```
 npm run build
-# or
-yarn build
 ```
 
-## ⚙️ Deployment
+The Azure production database can be cloned and saved for local development
 
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+```
+npm run save-azure-db
+```
