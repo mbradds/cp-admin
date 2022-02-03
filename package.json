@@ -7,14 +7,14 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "save-azure-db": "node ./scripts/saveDbToLocal.js"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.0.7",
     "@strapi/plugin-users-permissions": "4.0.7",
     "@strapi/strapi": "4.0.7",
-    "pg": "^8.7.1",
-    "sqlite3": "5.0.2"
+    "pg": "^8.7.1"
   },
   "author": {
     "name": "A Strapi developer"
