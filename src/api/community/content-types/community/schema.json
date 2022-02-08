@@ -84,7 +84,8 @@
     },
     "Longitude": {
       "type": "float",
-      "required": true
+      "required": true,
+      "max": 0
     },
     "ShowOnMap": {
       "type": "boolean",

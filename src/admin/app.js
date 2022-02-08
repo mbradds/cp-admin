@@ -1,21 +1,21 @@
-// import AuthLogo from "./extensions/my-logo.png";
+import AuthLogo from "./extensions/info-box-icon_engagement.png";
 // import MenuLogo from "./extensions/logo.png";
 import favicon from "./extensions/favicon.ico";
 
 export default {
   config: {
     // Replace the Strapi logo in auth (login) views
-    // auth: {
-    //   logo: AuthLogo,
-    // },
+    auth: {
+      logo: AuthLogo,
+    },
     // Replace the favicon
     head: {
       favicon: favicon,
     },
     // Replace the Strapi logo in the main navigation
-    // menu: {
-    //   logo: MenuLogo,
-    // },
+    menu: {
+      logo: AuthLogo,
+    },
     // Override or extend the theme
     theme: {
       colors: {
