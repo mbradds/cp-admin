@@ -33,13 +33,15 @@
       "type": "string"
     },
     "EmergencyManagementContact": {
-      "type": "string"
+      "type": "string",
+      "private": true
     },
     "Protocol": {
       "type": "string"
     },
     "IndigenousStudy": {
-      "type": "string"
+      "type": "string",
+      "private": true
     },
     "ConcernsOrIssues": {
       "type": "string"
