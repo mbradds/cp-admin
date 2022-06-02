@@ -11,9 +11,9 @@
     "save-azure-db": "node ./scripts/saveDbToLocal.js"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.11",
-    "@strapi/plugin-users-permissions": "4.1.11",
-    "@strapi/strapi": "4.1.11",
+    "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/strapi": "4.1.12",
     "pg": "^8.7.3"
   },
   "author": {
