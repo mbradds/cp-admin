@@ -32,6 +32,14 @@ export default {
     tutorials: false,
     // Disable notifications about new Strapi releases
     notifications: { release: false },
+    translations: {
+      en: {
+        "app.components.LeftMenu.navbrand.title": "CP Admin Dashboard",
+        "Auth.form.welcome.title": "Welcome to CP Admin",
+        "Auth.form.welcome.subtitle": "Admin portal for the Community Profiles web app.",
+        "app.components.HomePage.welcomeBlock.content.again": "Please click on the Content Manager button in the upper left hand corner to edit the community data.",
+      },
+    },
   },
 
   bootstrap() {},
