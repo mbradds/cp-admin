@@ -2,7 +2,7 @@
   "name": "cp-admin",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Admin portal for the Community Profiles website",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
