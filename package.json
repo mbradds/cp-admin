@@ -5,7 +5,7 @@
   "description": "Admin portal for the Community Profiles website",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "node node_modules/@strapi/strapi/bin/strapi.js start",
     "build": "strapi build",
     "strapi": "strapi",
     "save-azure-db": "node ./scripts/saveDbToLocal.js",

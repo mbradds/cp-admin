@@ -1,4 +1,4 @@
-FROM node:gallium
+FROM node:18-bullseye
 
 ENV PORT 1337
 ENV HOST 0.0.0.0
